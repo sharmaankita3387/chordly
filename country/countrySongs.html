@@ -1,0 +1,48 @@
+<!--
+Student: shashatm (Maria Shashati); shara248 (Ankita Sharma)
+Team: Thurs-09
+
+Code Description:This code let's the user to select a song to play 
+                 and redirects them to the play page. 
+
+Contributors:
+- shara248: Coded all the JavaScript functions, buttons, and overall front-end interactivity for the website, ensuring a smooth user experience.
+- shashatm: Developed the song database and implemented the song play logic for country songs, managing the song data and playback functionality.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../selectionStyle.css">
+    <title>COUNTRY</title>
+</head>
+<body>
+
+  <!--Header STARTS-->
+  <div class="w3-container">
+    <h1 class="head_text">COUNTRY</h1>
+  </div>
+  <!--HEADER ENDS-->
+
+  <!--Song Selection STARTS-->
+  <div class="songBox" onclick="goToPlayPg('bbr')"><h1>Bless Broken Road</h1></div>
+  <div class="songBox" onclick="goToPlayPg('cmu')"><h1>Cover Me Up</h1></div>
+  <div class="songBox" onclick="goToPlayPg('dawns')"><h1>Dawns</h1></div>
+  <div class="songBox" onclick="goToPlayPg('girl')"><h1>Gone Girl</h1></div>
+  <div class="songBox" onclick="goToPlayPg('night')"><h1>Last Night</h1></div>
+  <div class="songBox" onclick="goToPlayPg('north')"><h1>Northern Attitude</h1></div>
+  <div class="songBox" onclick="goToPlayPg('revival')"><h1>Revival</h1></div>
+  <div class="songBox" onclick="goToPlayPg('orange')"><h1>Something in the Orange</h1></div>
+  <div class="songBox" onclick="goToPlayPg('thome')"><h1>Take me Home</h1></div>
+  <div class="songBox" onclick="goToPlayPg('every')"><h1>Everywhere Everything</h1></div> 
+  <!--Song Selection ENDS--> 
+
+  <script src="countryScript.js"></script>
+</body>
+</html>
+
+
+
+

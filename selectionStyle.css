@@ -1,0 +1,72 @@
+/*
+Student: shara248 (Ankita Sharma)
+Team: Thurs-09
+Code Description: CSS file for musicGenrePg.html, and all the song selection pages 
+*/
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: auto;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* musicGenrePg CSS STARTS HERE */
+.row{
+ display:flex;
+ justify-content:center;
+ margin:auto;
+ width:90%;
+ margin-top:20px;
+}
+/* musicGenrePg CSS ENDS HERE */
+
+/* SELECTION PAGE CSS STARTS HERE */
+.w3-container {
+  display:centre;
+  padding: 20px;
+  width: 60%;
+  margin:auto;
+  margin-top: -80px;    /*Adjusting the whitespace due to font-size*/
+  margin-bottom: -100px; /*Adjusting the whitespace due to font-size*/
+}
+
+.head_text{
+  display: flex;
+  justify-content: center;
+  font-size: 130px;
+  font-weight: bold;
+  color: #ff1;
+  text-align: center;
+  line-height: 134px;
+  height: 135px
+}
+
+.songBox{
+  width:100%;
+  border-bottom: 1px dashed lightgray;
+  background-color: #fb7ed4;
+  color: #1e1a1a;
+  font-size:50px;
+}
+
+.songBox:hover{
+  width:100%;
+  background-color:#d5a0f8 ;
+  transition: 0.5s;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+a:link {
+  text-decoration:none;
+  padding: 8px 10px;
+  display: block;
+}
+/* SELECTION PAGE CSS ENDS HERE */
+
+
+
+

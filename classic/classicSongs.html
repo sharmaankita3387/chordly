@@ -1,0 +1,46 @@
+<!--
+Student: daleya13 (Arianne Daley); shara248 (Ankita Sharma)
+Team: Thurs-09
+
+Code Description:This code let's the user to select a song to play 
+                 and redirects them to the play page.
+
+Contributors:
+- shara248: Coded all the JavaScript functions, buttons, and overall front-end interactivity for the website, ensuring a smooth user experience.
+- daleya13: Developed the song database and implemented the song play logic for classical rock songs, managing the song data and playback functionality.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../selectionStyle.css">
+    <title>CLASSIC ROCK</title>
+</head>
+<body>
+
+  <!--Header STARTS-->
+  <div class="w3-container">
+    <h1 class="head_text">CLASSIC</h1>
+  </div>
+  <!--HEADER ENDS-->
+
+
+  <!--Song Selection STARTS-->
+  <div class="songBox" onclick="goToPlayPg('hotel_calif')"><h1>Hotel California</h1></div>
+  <div class="songBox" onclick="goToPlayPg('ysv')"><h1>You're so Vain</h1></div>
+  <div class="songBox" onclick="goToPlayPg('fm_dreams')"><h1>Dreams (fleetwood mac)</h1></div>
+  <div class="songBox" onclick="goToPlayPg('lib')"><h1>Let it Be</h1></div>
+  <div class="songBox" onclick="goToPlayPg('tbtd')"><h1>That'll be the Day</h1></div>
+  <div class="songBox" onclick="goToPlayPg('labamba')"><h1>La Bamba</h1></div>
+  <div class="songBox" onclick="goToPlayPg('yesterday')"><h1>Yesterday</h1></div>
+  <div class="songBox" onclick="goToPlayPg('tie')"><h1>Take it Easy</h1></div>
+  <div class="songBox" onclick="goToPlayPg('tc_dreams')"><h1>Dreams(The Cranberries)</h1></div>
+  <div class="songBox" onclick="goToPlayPg('ewtrtw')"><h1>Everybody Wants to Rule the World</h1></div> 
+  <!--Song Selection ENDS--> 
+
+
+  <script src="classicScript.js"></script>
+</body>
+</html>

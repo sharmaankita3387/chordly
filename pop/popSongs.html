@@ -1,0 +1,43 @@
+<!--
+Student: farida6 (Alisha Faridi); shara248 (Ankita Sharma)
+Team: Thurs-09
+
+Code Description:This code let's the user to select a song to play 
+                 and redirects them to the play page. 
+
+Contributors:
+- shara248: Coded all the JavaScript functions, buttons, and overall front-end interactivity for the website, ensuring a smooth user experience.
+- farida6: Developed the song database and implemented the song play logic for pop songs, managing the song data and playback functionality.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../selectionStyle.css">
+    <title>POP SONGS</title>
+</head>
+<body>
+
+  <!--Header STARTS-->
+  <div class="w3-container">
+    <h1 class="head_text">POP</h1>
+  </div>
+  <!--HEADER ENDS-->
+
+  <!--Song Selection STARTS-->
+  <div class="songBox" onclick="goToPlayPg('lhg')"><h1>Let Her Go</h1></div>
+  <div class="songBox" onclick="goToPlayPg('iris')"><h1>Iris</h1></div>
+  <div class="songBox" onclick="goToPlayPg('shallow')"><h1>Shallow</h1></div>
+  <div class="songBox" onclick="goToPlayPg('htd')"><h1>Hey There Delilah</h1></div>
+  <div class="songBox" onclick="goToPlayPg('blank')"><h1>Blank Space</h1></div>
+  <div class="songBox" onclick="goToPlayPg('photo')"><h1>Photograph</h1></div>
+  <div class="songBox" onclick="goToPlayPg('stitch')"><h1>Stitches</h1></div>
+  <div class="songBox" onclick="goToPlayPg('roll')"><h1>Rolling in the Deep</h1></div>
+  <div class="songBox" onclick="goToPlayPg('jwya')"><h1>Just the Way You Are</h1></div>
+  <!--Song Selection ENDS--> 
+  
+  <script src="popScript.js"></script>
+</body>
+</html>

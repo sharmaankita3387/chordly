@@ -1,0 +1,64 @@
+<!--
+Student: shara248 (Ankita Sharma)
+Team: Thurs-09
+
+Code Description:This code created the play page of the website 
+                 using JavaScript for back-end logic.  
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../playStyle.css">
+    <title>Chordly</title>
+</head>
+<body>
+    <!--Header STARTS-->
+    <div class = "header">
+        <img id ="muteButton" src="../images/unmute.png" alt="MUTE" class="icon" onclick="toggleMute()">
+        <img id ="exitButton" src="../images/exit.png" alt="EXIT" class="icon"  onclick="exitApp()">
+
+    </div>
+    <!--HEADER ENDS-->
+
+    <!--MAIN BODY STARTS-->
+    <div class="mainBody">
+    <div id="chordImageBox"></div>
+    </div>
+    <!--MAIN BODY ENDS-->
+
+    <!--Footer STARTS-->
+    <div class="footer">
+        <img id ="rewindButton" src="../images/rewind.png" alt="REWIND" class="icon onclick="rewind()">
+        <img id ="playButton" src="../images/play.png" alt="PLAY" class="icon" style = "margin-left:20%;margin-right:20%;width:120px;height:120px;" onclick="togglePlayPause()"> 
+        <img id ="forwardButton" src="../images/forward.png" alt="FORWARD" class="icon" onclick="forward()">
+    </div>
+    <!--Footer ENDS-->
+    <script>
+        function toggleMute(){
+            const muteButton = document.getElementById("muteButton");
+            if(muteButton.src.includes("unmute")){
+                muteButton.src = "../images/mute.png";
+            }else{
+                muteButton.src = "../images/unmute.png";
+            }
+        }
+        
+        function exitApp(){
+            window.location.href = "../main.html";
+        }
+        
+        function togglePlayPause(){
+            const playButton = document.getElementById("playButton");
+            if(playButton.src.includes("play")){
+                playButton.src = "../images/pause.png";
+            }else{
+                playButton.src = "../images/play.png";
+            }
+        }
+    </script>
+    <script src="classicSongs.js"></script>
+</body>
+</html>
+

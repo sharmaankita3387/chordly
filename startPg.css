@@ -1,0 +1,43 @@
+/*
+Student: shara248 (Ankita Sharma)
+Team: Thurs-09
+Code Description:CSS file for main.html
+*/
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+  }
+
+.button {
+    background-color:#fb7ed4; 
+    border: none;
+    color: #1e1a1a;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 75px;
+    border-radius: 12px;
+    margin-top:20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+
+
+
+  
