@@ -1,5 +1,5 @@
 /*
-Student: shara248 (Ankita Sharma)
+Student: Ankita Sharma
 Team: Thurs-09
 Code Description:This javaScript takes the user input for the
                  song selected and passes it down to the play page.
