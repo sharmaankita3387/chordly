@@ -1,5 +1,5 @@
 /*
-Student: farida6 (Alisha Faridi); shara248 (Ankita Sharma)
+Student: Member_AF; Ankita Sharma
 Team: Thurs-09
 
 Code Description: This javaScript file has all the functions which 
@@ -8,9 +8,9 @@ Code Description: This javaScript file has all the functions which
                   according to the user interaction.
 
 Contributors:
-- shara248: Coded JavaScript functions(rewind and forward), buttons(mute/unmute,exit), 
+- Ankita_S: Coded JavaScript functions(rewind and forward), buttons(mute/unmute,exit), 
             and overall front-end interactivity for the website.
-- farida6: Developed the song database and implemented the song play logic for pop songs, 
+- Member_AF: Developed the song database and implemented the song play logic for pop songs, 
             managing the song data and playback functionality.
 */
 
