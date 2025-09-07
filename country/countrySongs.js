@@ -1,5 +1,5 @@
 /*
-Student: shashatm (Maria Shashati); shara248 (Ankita Sharma)
+Student: Member_MS; Ankita Sharma
 Team: Thurs-09
 
 Code Description: This javaScript file has all the functions which 
@@ -8,9 +8,9 @@ Code Description: This javaScript file has all the functions which
                   according to the user interaction.
 
 Contributors:
-- shara248: Coded JavaScript functions(rewind and forward), buttons(mute/unmute,exit), 
+- Ankita: Coded JavaScript functions(rewind and forward), buttons(mute/unmute,exit), 
             and overall front-end interactivity for the website.
-- shashatm: Developed the song database and implemented the song play logic for country songs, 
+- Member_MS: Developed the song database and implemented the song play logic for country songs, 
             managing the song data and playback functionality.
 */
 
