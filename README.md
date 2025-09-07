@@ -1,4 +1,4 @@
-# 🎸 Chordly: A responsive, accessibility-focused guitar learning web app 
+# 🎸 Chordly: A responsive, accessibility-focused guitar learning website
 🌐 **Live Site:** [View Chordly on GitHub Pages](https://sharmaankita3387.github.io/chordly/)
 ---
 ## 🌟 Features
